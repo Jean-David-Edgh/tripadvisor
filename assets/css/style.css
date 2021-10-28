@@ -215,6 +215,7 @@ main nav div:hover {
 
 .col-carrousel i {
   color: #00aa6c;
+  font-size: 17px;
 }
 
 .col-carrousel span {
@@ -241,9 +242,21 @@ main nav div:hover {
 
 .choice {
   position: absolute;
-  bottom: 8px;
-  left: 8px;
+  bottom: 100px;
+  left: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.certificate {
+  position: absolute;
+  bottom: 200px;
+  left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
 }
