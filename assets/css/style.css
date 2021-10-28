@@ -251,14 +251,11 @@ main nav div:hover {
 
 .certificate {
   position: absolute;
-  bottom: 20px;
-  left: 20px;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  /* height: 0px; */
-  /* width: 40px; */
-  /* object-fit: cover; */
+  bottom: 15px;
+  left: 15px;
+  height: 50px;
+  width: 40px;
+  object-fit: cover;
 }
 
 .img-container {
