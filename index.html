@@ -5,12 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Imports CSS -->
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/fonts.css" />
     <link rel="stylesheet" href="./assets/css/style-i.css" />
+    <link rel="stylesheet" href="./assets/css/media-queries.css" />
 
-    <!-- fontawesome -->
+    <!-- Import JS -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- Import fontawesome -->
     <script
       src="https://kit.fontawesome.com/fa6595ad9a.js"
       crossorigin="anonymous"
@@ -21,7 +26,9 @@
 
   <body>
     <header class="container">
+      <i class="fas fa-bars hidden"></i>
       <img src="./assets/img/logo.svg" alt="logo TripAdvisor" />
+      <i class="fas fa-search hidden"></i>
 
       <nav>
         <div>
@@ -45,7 +52,7 @@
     <main class="container">
       <h1><span>Explorez</span> Paris</h1>
 
-      <nav>
+      <nav class="menu">
         <div>
           <span> Hôtels </span>
           <i class="fas fa-bed"></i>
@@ -279,6 +286,10 @@
       </section>
     </main>
 
-    <footer></footer>
+    <footer class="container">
+      <img src="./assets/img/arc-en-ciel.png" alt="" /><span
+        >TripAdvisor reborn, by JD :-)</span
+      ><img src="./assets/img/arc-en-ciel.png" alt="" />
+    </footer>
   </body>
 </html>

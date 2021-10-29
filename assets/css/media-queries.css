@@ -1,9 +1,62 @@
-@media (max-width: 1024px) {
-  header {
-    background-color: pink;
+@media (max-width: 1184px) {
+  .menu div:nth-child(6),
+  .menu div:nth-child(7) {
+    display: flex;
+  }
+  .menu {
+    flex-wrap: wrap;
+  }
+  .menu div:not(:last-child) {
+    margin-right: 0px;
+  }
+  .menu div {
+    width: calc((100% - 60px) / 4);
+    /* width: calc(25% - (60px / 4)); */
+    flex: none;
+  }
+  .menu div:not(:nth-child(4), :nth-child(8)) {
+    margin-right: 20px;
   }
 
-  h1 {
-    font-size: 12px;
+  /* Pour cibler les enfants multiples de 4 (ici, les enfants 4 et 8 : */
+  /* .menu div:not(:nth-child(4n)) {
+    background-color: purple;
+  } */
+
+  /* Pour cibler les 4 premiers enfants : */
+  .menu div:nth-child(-n + 4) {
+    background-color: pink;
+    margin-bottom: 20px;
+  }
+  /*
+où n = 0 donc 0 + 4 = 4 => 4ème enfant
+   n = -1 donc -1 + 4 = 3 => 3ème enfant
+   ...
+   n = -3 donc -3 + 4 = 1 => 1er enfant
+  */
+}
+
+@media (max-width: 1024px) {
+  header span {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Hidden elements */
+  header .hidden {
+    display: inherit;
+  }
+  header nav {
+    display: none;
+  }
+  header img {
+    width: 100px;
+  }
+}
+
+@media (min-width: 768px) {
+  header .hidden {
+    display: none;
   }
 }

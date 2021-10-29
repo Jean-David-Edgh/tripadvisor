@@ -261,3 +261,18 @@ main nav div:hover {
 .img-container {
   position: relative;
 }
+
+/* FOOTER  */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border-top: 2px solid #00aa6c;
+}
+
+footer img {
+  height: 40px;
+  width: 40px;
+  margin: 0 10px;
+}
