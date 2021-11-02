@@ -1,0 +1,27 @@
+{
+  "name": "tripadvisor-reborn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jean-David-Edgh/tripadvisor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jean-David-Edgh/tripadvisor/issues"
+  },
+  "homepage": "https://github.com/Jean-David-Edgh/tripadvisor#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "mailgun-js": "^0.22.0"
+  }
+}

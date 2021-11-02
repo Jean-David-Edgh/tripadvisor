@@ -15,6 +15,9 @@
     <!-- Import JS -->
     <script src="assets/js/main.js"></script>
 
+    <!-- Import de axios -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
     <!-- Import fontawesome -->
     <script
       src="https://kit.fontawesome.com/fa6595ad9a.js"
@@ -44,7 +47,7 @@
           <span>Alertes</span>
         </div>
         <div>
-          <button>Connectez-vous</button>
+          <button id="display-form">Connectez-vous</button>
         </div>
       </nav>
     </header>
@@ -290,6 +293,22 @@
       <img src="./assets/img/arc-en-ciel.png" alt="" /><span
         >TripAdvisor reborn, by JD :-)</span
       ><img src="./assets/img/arc-en-ciel.png" alt="" />
+      <br />
+      <div class="form-hidden">
+        <form id="contact-form">
+          <h3>Formulaire de contact</h3>
+          <input type="text" placeholder="Prénom" id="firstname" />
+          <input type="text" placeholder="NOM" id="lastname" />
+          <input type="email" placeholder="Email" id="email" />
+          <textarea
+            rows="5"
+            cols="30"
+            placeholder="Ecrivez ici votre message..."
+            id="message"
+          ></textarea>
+          <input type="submit" value="Envoyer le formulaire" />
+        </form>
+      </div>
     </footer>
   </body>
 </html>
